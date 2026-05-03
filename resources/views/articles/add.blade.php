@@ -51,7 +51,6 @@
         </div>
     </div>
 
-    {{-- Specific styling for the select dropdown to match inputs --}}
     <style>
         .form-select {
             background-color: var(--input-bg) !important;
@@ -63,7 +62,6 @@
         .form-select:focus {
             box-shadow: 0 0 0 2px var(--primary) !important;
         }
-        /* Ensure dropdown options are readable in dark mode */
         .form-select option {
             background-color: var(--dropdown-bg);
             color: var(--text-main);

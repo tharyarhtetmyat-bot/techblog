@@ -22,7 +22,6 @@
             </div>
         </div>
 
-        {{-- Comments Section --}}
         <div class="mt-5">
             <h5 class="fw-bold mb-3 d-flex align-items-center">
                 <i class="bi bi-chat-left-text-fill me-2 text-primary"></i>
@@ -55,7 +54,6 @@
             </div>
         </div>
 
-        {{-- Add Comment Form --}}
         @auth
             <div class="card glass-card mt-4">
                 <div class="card-body p-3">

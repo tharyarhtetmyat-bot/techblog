@@ -70,27 +70,21 @@
         color: var(--text-main) !important;
     }
 
-    /* --- FORCE DARK MODE VISIBILITY --- */
-
-    /* This targets the "Category", "Comments", and "Time" text */
     [data-theme='dark'] .text-muted,
     [data-theme='dark'] .small,
     [data-theme='dark'] .card-subtitle {
         color: var(--text-muted) !important;
     }
 
-    /* If you have inline styles or generic grey text in the cards */
     [data-theme='dark'] .card-body div,
     [data-theme='dark'] .card-body span {
         color: var(--text-muted) !important;
     }
 
-    /* Ensure the username (Nero Hart, Bob, etc) stays bright green */
     .text-success {
         color: #23a559 !important;
     }
 
-    /* Link color for "View Detail" */
     .card-body a {
         color: var(--primary);
         text-decoration: none;

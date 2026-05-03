@@ -4,7 +4,7 @@
 <style>
     :root {
         --primary: #5865F2;
-        /* Light Mode */
+
         --bg-color: #f2f3f5;
         --bg-mesh: radial-gradient(at 0% 0%, #e0e7ff 0, transparent 50%),
                     radial-gradient(at 100% 100%, #fae8ff 0, transparent 50%);
@@ -16,7 +16,7 @@
         --border: rgba(0, 0, 0, 0.08);
     }
 
-    /* THE FIX: Explicit Dark Mode overrides */
+
     [data-theme='dark'] {
         --bg-color: #111214; /* Pure Discord Dark */
         --bg-mesh: radial-gradient(at 0% 0%, rgba(88, 101, 242, 0.15) 0, transparent 50%),
